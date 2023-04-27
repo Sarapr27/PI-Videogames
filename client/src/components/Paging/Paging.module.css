@@ -1,0 +1,64 @@
+.paging{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.liNumber {
+    padding: 0 0.5rem 0 0.5rem;
+
+}
+
+.prueba {
+    width: 30px;
+    height: 30px;
+}
+
+.currentPage {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    background-color: rgb(218, 192, 19);
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.currentPage:hover{
+    transform: scale(1.05);
+}
+
+.notCurrent {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    background-color: rgb(27, 104, 11);
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.notCurrent:hover{
+    transform: scale(1.05);
+}
+
+.butt {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    background-color: rgb(129, 63, 9);
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.butt:hover{
+    transform: scale(1.05);
+}

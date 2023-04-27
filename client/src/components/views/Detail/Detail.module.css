@@ -1,0 +1,72 @@
+.containerdivdetail {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(77, 131, 48, 0.445);
+    width: 1000px;
+    margin: 100px;
+    padding: 45px;
+    border-radius: 25px;
+    border-color: black;
+    justify-content: center;
+    font-size: 20px;
+        color: rgb(255, 255, 255);
+    font-family:  sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.text {
+    background-color: rgba(248, 201, 44, 0.932);
+    border-radius: 25px;
+    padding: 40px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container:hover{
+    transform: scale(1.05);
+}
+
+.img {
+    width: 90%;
+} 
+
+.button {
+backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: rgb(251, 18, 18);
+  border-radius: 100px;
+  border: 2px solid #fff;
+  border-width: 5px 5px 5px 5px;
+  padding: 10px; 
+    color: #fff;
+  font-size: 17px;
+  font-family: 'Pretendo', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 20px;
+  
+  }
+
+  .button:hover{
+    transform: scale(1.05);
+}
+
+.loading {
+    display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 50%; /* ajustar la anchura del elemento que deseas centrar */
+  margin: auto;
+}
+
+
